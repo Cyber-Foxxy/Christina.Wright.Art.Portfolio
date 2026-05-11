@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Christina Wright | Art Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#home">Christina Wright</a>
+      <button class="menu-toggle" aria-label="Open navigation">☰</button>
+      <div class="nav-links">
+        <a href="#paintings">Paintings</a>
+        <a href="#drawings">Hand Drawn</a>
+        <a href="#digital">Digital Art</a>
+        <a href="#web">Web Design</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Traditional • Digital • Web Design</p>
+        <h1>Art portfolio built around imagination, color, story, and character.</h1>
+        <p>
+          A professional creative portfolio featuring traditionally painted artwork,
+          hand-drawn pieces, digital art, game/web design projects, and visual storytelling.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#paintings">View Artwork</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="images/NEON MUSHIES.jpg" alt="Neon mushroom painting" />
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="intro section">
+      <h2>Featured Portfolio Categories</h2>
+      <p>
+        This site is organized so visitors can quickly browse artwork by medium.
+        More categories and project pages can be added as your portfolio grows.
+      </p>
+      <div class="category-grid">
+        <a href="#paintings" class="category-card">
+          <span>01</span>
+          <h3>Traditional Paintings</h3>
+          <p>Canvas, acrylic, mixed media, fantasy, animals, and expressive color work.</p>
+        </a>
+        <a href="#drawings" class="category-card">
+          <span>02</span>
+          <h3>Hand Drawn Art</h3>
+          <p>Pencil, graphite, character studies, detailed linework, and illustrative realism.</p>
+        </a>
+        <a href="#digital" class="category-card">
+          <span>03</span>
+          <h3>Digital Art</h3>
+          <p>Stylized pieces, edited fantasy imagery, digital compositions, and character art.</p>
+        </a>
+        <a href="#web" class="category-card">
+          <span>04</span>
+          <h3>Web & Game Design</h3>
+          <p>Interactive websites, games, class projects, and creative front-end design.</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="paintings" class="section gallery-section">
+      <div class="section-heading">
+        <p class="eyebrow">Gallery One</p>
+        <h2>Traditional Paintings</h2>
+        <p>Sample paintings and mixed-media works currently featured in the portfolio.</p>
+      </div>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="painting">Paintings</button>
+        <button class="filter-btn" data-filter="drawing">Hand Drawn</button>
+        <button class="filter-btn" data-filter="digital">Digital</button>
+      </div>
+
+      <div class="gallery" id="gallery">
+        <article class="art-card" data-category="drawing">
+          <img src="images/WOLVES.jpg" alt="Hand drawn white wolves in grass" />
+          <div><h3>Wolves</h3><p>Hand-drawn animal study</p></div>
+        </article>
+
+        <article class="art-card" data-category="painting">
+          <img src="images/0ba37269-e2ce-4baf-be25-612e922863c5 (1).jpg" alt="Colorful painted seahorse" />
+          <div><h3>Patterned Seahorse</h3><p>Traditional painted fantasy sea life</p></div>
+        </article>
+
+        <article class="art-card" data-category="drawing">
+          <img src="images/ARCHANGEL copy.jpg" alt="Graphite archangel warrior drawing" />
+          <div><h3>Archangel</h3><p>Graphite fantasy illustration</p></div>
+        </article>
+
+        <article class="art-card" data-category="painting">
+          <img src="images/AXOLOTOL BOBA.jpg" alt="Pink axolotl drinking boba" />
+          <div><h3>Axolotl Boba</h3><p>Bright character painting</p></div>
+        </article>
+
+        <article class="art-card" data-category="painting">
+          <img src="images/CLOUD WATCHING.jpg" alt="Girl with flowing hair watching clouds" />
+          <div><h3>Cloud Watching</h3><p>Traditional character portrait</p></div>
+        </article>
+
+        <article class="art-card" data-category="painting">
+          <img src="images/KITSUNE.jpg" alt="Kitsune woman with tea and smoke" />
+          <div><h3>Kitsune</h3><p>Fantasy character painting</p></div>
+        </article>
+
+        <article class="art-card" data-category="painting">
+          <img src="images/KOI.jpg" alt="Yin-yang koi fish painting" />
+          <div><h3>Koi</h3><p>Symbolic painted composition</p></div>
+        </article>
+
+        <article class="art-card" data-category="digital">
+          <img src="images/MY TREE. Life & Death pic.jpg" alt="Cosmic tree and hand artwork" />
+          <div><h3>Life & Death Tree</h3><p>Digital mixed-media composition</p></div>
+        </article>
+
+        <article class="art-card" data-category="painting">
+          <img src="images/NEON MUSHIES.jpg" alt="Neon mushroom painting" />
+          <div><h3>Neon Mushies</h3><p>Glowing fantasy mushroom painting</p></div>
+        </article>
+
+        <article class="art-card" data-category="painting">
+          <img src="images/ROBOT MOM.jpg" alt="Robot mother and child painting" />
+          <div><h3>Robot Mom</h3><p>Stylized robot character painting</p></div>
+        </article>
+
+        <article class="art-card" data-category="painting">
+          <img src="images/SUGAR SKULL.jpg" alt="Sugar skull portrait" />
+          <div><h3>Sugar Skull</h3><p>Colorful portrait painting</p></div>
+        </article>
+
+        <article class="art-card" data-category="drawing">
+          <img src="images/train completed.jpg" alt="Graphite steam train drawing" />
+          <div><h3>Steam Train</h3><p>Graphite perspective drawing</p></div>
+        </article>
+
+        <article class="art-card" data-category="digital">
+          <img src="images/ULTRA INSTINCT.jpg" alt="Glowing anime-inspired digital figure" />
+          <div><h3>Ultra Instinct</h3><p>Digital character art</p></div>
+        </article>
+
+        <article class="art-card" data-category="painting">
+          <img src="images/a386cf28-a707-4376-9fa5-42bf687a40b0orca-image-.jpeg" alt="Large octopus painting" />
+          <div><h3>Octopus Ruins</h3><p>Large fantasy sea creature painting</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="drawings" class="section split-section">
+      <div>
+        <p class="eyebrow">Gallery Two</p>
+        <h2>Hand Drawn Art</h2>
+        <p>
+          A space for graphite, pencil, linework, studies, and detailed traditional drawings.
+          Add future sketchbook pages, figure studies, animal drawings, and concept art here.
+        </p>
+      </div>
+      <img src="images/train completed.jpg" alt="Steam train drawing preview" />
+    </section>
+
+    <section id="digital" class="section split-section reverse">
+      <div>
+        <p class="eyebrow">Gallery Three</p>
+        <h2>Digital Art</h2>
+        <p>
+          A category for digital painting, mixed-media edits, character design,
+          animation concepts, comic art, and fantasy compositions.
+        </p>
+      </div>
+      <img src="images/MY TREE. Life & Death pic.jpg" alt="Digital life tree artwork preview" />
+    </section>
+
+    <section id="web" class="section web-section">
+      <p class="eyebrow">Interactive Work</p>
+      <h2>Web Design, Games & Pages</h2>
+      <p>
+        Add screenshots, GitHub links, live demos, class projects, JavaScript games,
+        interactive stories, and webpage designs here.
+      </p>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Game Design Projects</h3>
+          <p>Canvas or Phaser games with characters, scoring, collectibles, levels, and animation.</p>
+          <a href="#" aria-label="Add game design project link">Add project link →</a>
+        </article>
+        <article class="project-card">
+          <h3>Webpage Designs</h3>
+          <p>HTML, CSS, JavaScript, responsive layouts, portfolio pages, and creative UI design.</p>
+          <a href="#" aria-label="Add webpage design project link">Add project link →</a>
+        </article>
+        <article class="project-card">
+          <h3>Interactive Art</h3>
+          <p>Animated scenes, visual storytelling, generative artwork, and interactive experiments.</p>
+          <a href="#" aria-label="Add interactive art project link">Add project link →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <p class="eyebrow">Contact</p>
+      <h2>Let’s create something imaginative.</h2>
+      <p>Replace this text with your professional email, resume link, social links, or portfolio contact form.</p>
+      <a class="btn primary" href="mailto:your-email@example.com">Email Me</a>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="close-lightbox" aria-label="Close image">×</button>
+    <img id="lightbox-img" src="" alt="" />
+    <p id="lightbox-caption"></p>
+  </div>
+
+  <footer>
+    <p>© <span id="year"></span> Christina Wright. Art Portfolio.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
